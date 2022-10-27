@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.welcome {
+  margin-top: 4px;
+  margin-left: 6px;
+}
+
+.menu {
+  margin-top: 15px;
+  margin-right: 6px;
+  justify-content: space-around;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  background-image: url("images/SVG/header-illsutration-mobile.svg");
+  background-repeat: no-repeat;
+}
+
+h1 {
+  padding-top: 45px;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  align-content: center;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+.title1 {
+  color: #172b4d;
+}
+
+.title2 {
+  color: #36b37e;
+}
+
+p {
+  padding: 0 15px 0 15px;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  align-self: center;
+  color: #172b4d;
+}
+
+.hicon {
+  color: transparent;
+  background-color: transparent;
+  border: 0;
+}
+
+.socials {
+  width: 160px;
+  height: 64px;
+  margin: 0 110px 0 110px;
+  line-height: 28px;
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+}
+
+.action {
+  color: transparent;
+  background-color: transparent;
+  border: 0;
+  margin: 60px 25px 0 25px;
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+}
