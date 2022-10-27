@@ -1,3 +1,86 @@
-h1 {
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 380px;
+  height: 75px;
+}
+
+div {
+  display: flex;
+}
+
+.title {
+  background-image: url("images/PNG/header-illsutration-mobile.png");
+  background-repeat: no-repeat;
+  width: 380px;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  flex-direction: column;
+}
+
+nav {
+  width: 90px;
+  height: 28px;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #28352f;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  width: 370px;
+  height: 192px;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  align-content: center;
+}
+
+.title1 {
   color: #172b4d;
+}
+
+.title2 {
+  color: #36b37e;
+}
+
+p {
+  width: 330px;
+  height: 164px;
+  margin: 0 20px 0 20px;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #172b4d;
+  justify-content: center;
+}
+
+.socials {
+  width: 160px;
+  height: 64px;
+  margin: 0 110px 0 110px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.action {
+  margin: 60px 25px 0 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
