@@ -22,6 +22,19 @@ header {
   border: 1px red solid;
 }
 
+.div2 {
+  display: flex;
+  flex-direction: column;
+  border: 1px red solid;
+}
+
+.div3 {
+  display: block;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+}
+
 .item {
   background: #fff;
   border-radius: 8px;
@@ -57,6 +70,7 @@ h2 {
   line-height: 52px;
   text-align: center;
   align-content: center;
+  align-self: center;
 }
 
 ul {
@@ -64,11 +78,11 @@ ul {
   padding-inline-start: 0;
 }
 
-.title1 {
+.color1 {
   color: #172b4d;
 }
 
-.title2 {
+.color2 {
   color: #36b37e;
 }
 
@@ -143,7 +157,7 @@ p {
 }
 
 .seeproject {
-  width: 122px;
+  width: fit-content;
   height: 48px;
   padding: 12px;
   border: 0;
@@ -158,7 +172,7 @@ p {
 }
 
 .seeproject:hover {
-  width: 122px;
+  width: fit-content;
   height: 48px;
   border: 0;
   background: #36b37f;
@@ -173,7 +187,7 @@ p {
 }
 
 .seeproject:active {
-  width: 122px;
+  width: fit-content;
   height: 48px;
   border: 0;
   background: #008552;
@@ -211,4 +225,16 @@ h3 {
   font-size: 24px;
   line-height: 32px;
   color: #3a4a42;
+}
+
+.paper-bird1 {
+  float: right;
+  margin-left: -68px;
+  margin-top: -18px;
+}
+
+.paper-bird2 {
+  float: left;
+  margin-right: -68px;
+  margin-bottom: -18px;
 }
