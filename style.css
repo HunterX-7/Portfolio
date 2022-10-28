@@ -23,11 +23,22 @@ div {
 
 .title {
   background-image: url("images/SVG/header-illsutration-mobile.svg");
-  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 h1 {
   padding-top: 45px;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  align-content: center;
+}
+
+h2 {
   font-family: 'Inter', serif;
   font-style: normal;
   font-weight: 700;
@@ -86,4 +97,9 @@ p {
   display: flex;
   align-self: center;
   justify-content: space-between;
+}
+
+.greenseparator {
+text-align: center;
+  align-content: center;
 }
