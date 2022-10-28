@@ -16,9 +16,20 @@ header {
   justify-content: space-around;
 }
 
-div {
+.div1 {
   display: flex;
   flex-direction: column;
+  border: 1px red solid;
+}
+
+.item {
+  background: #fff;
+  border-radius: 8px;
+  height: 222px;
+  display: block;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
 }
 
 .title {
@@ -89,6 +100,28 @@ p {
   justify-content: space-between;
 }
 
+.container {
+  border: 1px red solid;
+  height: 474px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #ebf0ee;
+
+  /* border: 1px solid #D0D9D4; */
+  border-radius: 8px;
+  display: grid;
+  grid-template-rows: 252px 89px;
+}
+
+.skills {
+  margin: 0;
+  width: auto;
+  height: 32px;
+  line-height: 16px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .action {
   color: transparent;
   background-color: transparent;
@@ -103,4 +136,79 @@ p {
   width: 48px;
   height: 4px;
   align-self: center;
+}
+
+.button {
+  padding: 16px;
+}
+
+.seeproject {
+  width: 122px;
+  height: 48px;
+  padding: 12px;
+  border: 0;
+  background: #36b37f;
+  color: #fff;
+  border-radius: 4px;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.seeproject:hover {
+  width: 122px;
+  height: 48px;
+  border: 0;
+  background: #36b37f;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  color: #fff;
+  border-radius: 4px;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.seeproject:active {
+  width: 122px;
+  height: 48px;
+  border: 0;
+  background: #008552;
+  color: #fff;
+  border-radius: 4px;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.skills1 {
+  width: fit-content;
+  height: 16px;
+  padding: 8px 12px;
+  margin: 0;
+  background: #ebf0ee;
+  border-radius: 4px;
+  color: #3a4a42;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
+
+h3 {
+  margin: 0;
+  padding: 16px;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #3a4a42;
 }
