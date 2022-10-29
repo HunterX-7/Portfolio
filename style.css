@@ -124,7 +124,7 @@ p {
   margin-left: 20px;
   margin-right: 20px;
   background-color: #ebf0ee;
-  border: 1px solid #D0D9D4;
+  border: 1px solid #d0d9d4;
   border-radius: 8px;
   display: grid;
   grid-template-rows: 252px 89px;
@@ -135,7 +135,7 @@ p {
   margin-left: 20px;
   margin-right: 20px;
   background-color: #ebf0ee;
-  border: 1px solid #D0D9D4;
+  border: 1px solid #d0d9d4;
   border-radius: 8px;
   display: grid;
   grid-template-rows: 184px 32px 136px;
@@ -159,7 +159,7 @@ p {
   line-height: 16px;
   display: flex;
   flex-wrap: wrap;
-  gap: 	4px;
+  gap: 4px;
   justify-content: space-evenly;
 }
 
@@ -248,9 +248,9 @@ p {
   height: 16px;
   padding: 8px 12px;
   margin: 0;
-  background: #FFFFFF;
+  background: #fff;
   border-radius: 4px;
-  color: #36B37E;
+  color: #36b37e;
   font-family: 'Inter', serif;
   font-style: normal;
   font-weight: 600;
