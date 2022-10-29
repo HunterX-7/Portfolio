@@ -19,13 +19,11 @@ header {
 .div1 {
   display: flex;
   flex-direction: column;
-  border: 1px red solid;
 }
 
 .div2 {
   display: flex;
   flex-direction: column;
-  border: 1px red solid;
 }
 
 .div3 {
@@ -43,6 +41,13 @@ header {
   flex-direction: column;
   text-align: center;
   justify-content: space-around;
+}
+
+.item2 {
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
 }
 
 .title {
@@ -115,16 +120,25 @@ p {
 }
 
 .container {
-  border: 1px red solid;
   height: 474px;
   margin-left: 20px;
   margin-right: 20px;
   background-color: #ebf0ee;
-
-  /* border: 1px solid #D0D9D4; */
+  border: 1px solid #D0D9D4;
   border-radius: 8px;
   display: grid;
   grid-template-rows: 252px 89px;
+}
+
+.container2 {
+  height: 352px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #ebf0ee;
+  border: 1px solid #D0D9D4;
+  border-radius: 8px;
+  display: grid;
+  grid-template-rows: 184px 32px 136px;
 }
 
 .skills {
@@ -133,6 +147,19 @@ p {
   height: 32px;
   line-height: 16px;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.skills2 {
+  padding: 4px;
+  margin-top: 35px;
+  width: auto;
+  height: 40px;
+  line-height: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 	4px;
   justify-content: space-evenly;
 }
 
@@ -216,6 +243,22 @@ p {
   letter-spacing: 0.03em;
 }
 
+.skills3 {
+  width: fit-content;
+  height: 16px;
+  padding: 8px 12px;
+  margin: 0;
+  background: #FFFFFF;
+  border-radius: 4px;
+  color: #36B37E;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
+
 h3 {
   margin: 0;
   padding: 16px;
@@ -224,7 +267,7 @@ h3 {
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
-  color: #3a4a42;
+  color: #344563;
 }
 
 .paper-bird1 {
@@ -237,4 +280,8 @@ h3 {
   float: left;
   margin-right: -68px;
   margin-bottom: -18px;
+}
+
+.icon-skills {
+  margin-top: 50px;
 }
