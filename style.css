@@ -44,6 +44,7 @@ header {
 }
 
 .item2 {
+  display: flex;
   flex-direction: column;
   text-align: center;
   align-content: center;
@@ -154,8 +155,9 @@ p {
   background-color: #ebf0ee;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
-  display: grid;
-  grid-template-rows: 184px 32px 136px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .skills {
@@ -169,15 +171,11 @@ p {
 }
 
 .skills2 {
-  padding: 4px;
-  margin-top: 35px;
-  width: auto;
-  height: 40px;
-  line-height: 16px;
+  padding: 0 2px 0 2px;
   display: flex;
   flex-wrap: wrap;
-  gap: 4px;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 8px;
 }
 
 .action {
@@ -287,20 +285,8 @@ h3 {
   color: #344563;
 }
 
-.paper-bird1 {
-  float: right;
-  margin-left: -68px;
-  margin-top: -18px;
-}
-
-.paper-bird2 {
-  float: left;
-  margin-right: -68px;
-  margin-bottom: -18px;
-}
-
 .icon-skills {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .snapshoot {
