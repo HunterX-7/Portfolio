@@ -16,13 +16,61 @@ header {
   justify-content: space-around;
 }
 
-div {
+.div1 {
   display: flex;
   flex-direction: column;
 }
 
+.div2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.div3 {
+  display: block;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.item {
+  background: #fff;
+  border-radius: 8px;
+  height: 222px;
+  display: block;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.item2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+
 .title {
   background-image: url("images/SVG/header-illsutration-mobile.svg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.title1 {
+  background-position: top -15px right;
+  background-image: url("images/SVG/illustration\ 1-\ about\ me-mobile.svg");
+  background-repeat: no-repeat;
+}
+
+.title2 {
+  display: block;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  padding: 5px;
+  background-position: top left;
+  background-image: url("images/SVG/Frame.svg");
   background-repeat: no-repeat;
 }
 
@@ -37,16 +85,27 @@ h1 {
   align-content: center;
 }
 
+h2 {
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  align-content: center;
+  align-self: center;
+}
+
 ul {
   list-style-type: none;
   padding-inline-start: 0;
 }
 
-.title1 {
+.color1 {
   color: #172b4d;
 }
 
-.title2 {
+.color2 {
   color: #36b37e;
 }
 
@@ -78,6 +137,47 @@ p {
   justify-content: space-between;
 }
 
+.container {
+  height: 474px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #ebf0ee;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+  display: grid;
+  grid-template-rows: 252px 89px;
+}
+
+.container2 {
+  height: 352px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #ebf0ee;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills {
+  margin: 0;
+  width: auto;
+  height: 32px;
+  line-height: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.skills2 {
+  padding: 0 2px 0 2px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
 .action {
   color: transparent;
   background-color: transparent;
@@ -86,4 +186,110 @@ p {
   display: flex;
   align-self: center;
   justify-content: space-between;
+}
+
+.greenseparator {
+  width: 48px;
+  height: 4px;
+  align-self: center;
+}
+
+.button {
+  padding: 16px;
+}
+
+.seeproject {
+  width: fit-content;
+  height: 48px;
+  padding: 12px;
+  border: 0;
+  background: #36b37f;
+  color: #fff;
+  border-radius: 4px;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.seeproject:hover {
+  width: fit-content;
+  height: 48px;
+  border: 0;
+  background: #36b37f;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  color: #fff;
+  border-radius: 4px;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.seeproject:active {
+  width: fit-content;
+  height: 48px;
+  border: 0;
+  background: #008552;
+  color: #fff;
+  border-radius: 4px;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.skills1 {
+  width: fit-content;
+  height: 16px;
+  padding: 8px 12px;
+  margin: 0;
+  background: #ebf0ee;
+  border-radius: 4px;
+  color: #3a4a42;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
+
+.skills3 {
+  width: fit-content;
+  height: 16px;
+  padding: 8px 12px;
+  margin: 0;
+  background: #fff;
+  border-radius: 4px;
+  color: #36b37e;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
+
+h3 {
+  margin: 0;
+  padding: 16px;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #344563;
+}
+
+.icon-skills {
+  margin-top: 30px;
+}
+
+.snapshoot {
+  width: fit-content;
+  align-self: center;
 }
