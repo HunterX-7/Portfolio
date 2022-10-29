@@ -139,8 +139,8 @@ p {
 
 .container {
   height: 474px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   background-color: #ebf0ee;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
@@ -290,5 +290,6 @@ h3 {
 }
 
 .snapshoot {
-  margin-top: 14px;
+  width: fit-content;
+  align-self: center;
 }
