@@ -56,6 +56,23 @@ header {
   background-size: cover;
 }
 
+.title1 {
+  background-position: top -15px right;
+  background-image: url("images/SVG/illustration\ 1-\ about\ me-mobile.svg");
+  background-repeat: no-repeat;
+}
+
+.title2 {
+  display: block;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  padding: 5px;
+  background-position: top left;
+  background-image: url("images/SVG/Frame.svg");
+  background-repeat: no-repeat;
+}
+
 h1 {
   padding-top: 45px;
   font-family: 'Inter', serif;
