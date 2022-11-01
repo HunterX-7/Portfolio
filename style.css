@@ -81,6 +81,17 @@ header {
   background-repeat: no-repeat;
 }
 
+.title3 {
+  display: block;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  padding: 5px;
+  background-position: top right;
+  background-image: url("images/SVG/Frame\ \(1\).svg");
+  background-repeat: no-repeat;
+}
+
 h1 {
   padding-top: 45px;
   font-family: 'Inter', serif;
@@ -306,6 +317,9 @@ h3 {
 
 #contact-form{
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
 }
 
 .input-fields {
