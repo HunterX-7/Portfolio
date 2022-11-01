@@ -16,36 +16,42 @@ header {
   justify-content: space-around;
 }
 
-.div1 {
+.flex-column {
   display: flex;
   flex-direction: column;
+}
+
+.block-column {
+  display: block;
+  flex-direction: column;
+}
+
+.div1 {
+  text-align: center;
+  justify-content: space-around;
+  padding: 5px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .div2 {
-  display: flex;
-  flex-direction: column;
-}
-
-.div3 {
-  display: block;
-  flex-direction: column;
   text-align: center;
   justify-content: space-around;
+  padding: 5px;
+  background-position: bottom right;
+  background-image: url("images/SVG/Frame\ \(1\).svg");
+  background-repeat: no-repeat;
 }
 
 .item {
   background: #fff;
   border-radius: 8px;
   height: 222px;
-  display: block;
-  flex-direction: column;
   text-align: center;
   justify-content: space-around;
 }
 
 .item2 {
-  display: flex;
-  flex-direction: column;
   text-align: center;
   align-content: center;
   justify-content: center;
@@ -64,14 +70,18 @@ header {
 }
 
 .title2 {
-  display: block;
-  flex-direction: column;
   text-align: center;
   justify-content: space-around;
   padding: 5px;
   background-position: top left;
   background-image: url("images/SVG/Frame.svg");
   background-repeat: no-repeat;
+}
+
+.title3 {
+  text-align: center;
+  justify-content: space-around;
+  padding: 5px;
 }
 
 h1 {
@@ -137,6 +147,15 @@ p {
   justify-content: space-between;
 }
 
+.socials2 {
+  width: 160px;
+  margin: 40px 110px 0 110px;
+  line-height: 28px;
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+}
+
 .container {
   height: 474px;
   margin-left: 10px;
@@ -155,8 +174,6 @@ p {
   background-color: #ebf0ee;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
-  display: flex;
-  flex-direction: column;
   align-items: center;
 }
 
@@ -188,17 +205,11 @@ p {
   justify-content: space-between;
 }
 
-.greenseparator {
-  width: 48px;
-  height: 4px;
-  align-self: center;
-}
-
 .button {
   padding: 16px;
 }
 
-.seeproject {
+.button-interact {
   width: fit-content;
   height: 48px;
   padding: 12px;
@@ -213,7 +224,7 @@ p {
   line-height: 24px;
 }
 
-.seeproject:hover {
+.button-interact:hover {
   width: fit-content;
   height: 48px;
   border: 0;
@@ -228,7 +239,7 @@ p {
   line-height: 24px;
 }
 
-.seeproject:active {
+.button-interact:active {
   width: fit-content;
   height: 48px;
   border: 0;
@@ -291,5 +302,76 @@ h3 {
 
 .snapshoot {
   width: fit-content;
+  align-self: center;
+}
+
+#contact-form {
+  text-align: center;
+  justify-content: center;
+}
+
+.input-fields {
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  padding: 8px 16px 8px 16px;
+  margin: 12px 0 12px 0;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  height: 33px;
+  width: 287px;
+}
+
+.input-fields::placeholder {
+  color: #6b778c;
+}
+
+.input-textarea {
+  border: 1px solid #60c095;
+  border-radius: 4px;
+  padding: 8px 16px 8px 16px;
+  margin: 12px 0 20px 0;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  width: 287px;
+  height: 114px;
+}
+
+.input-textarea::placeholder {
+  color: #091e42;
+}
+
+.h3email {
+  margin: 0;
+  padding: 16px;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #344563;
+}
+
+.hrstyling {
+  border: #36b37e;
+  background-color: #36b37e;
+  border-radius: 4px;
+  width: 48px;
+  height: 4px;
+  align-self: center;
+}
+
+.hrstyling2 {
+  color: black;
+  background-color: black;
+  border-radius: 4px;
+  margin-top: 150px;
+  width: 130px;
+  height: 4px;
   align-self: center;
 }
