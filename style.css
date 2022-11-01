@@ -308,6 +308,30 @@ h3 {
 .input-fields {
   border: 1px solid #d0d9d4;
   border-radius: 4px;
-  height: 48px;
+  padding: 8px 16px 8px 16px;
+  margin: 12px 0px 12px 0px;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  height: 33px;
   width: 327px;  
+}
+
+.input-textarea {
+  border: 1px solid #60C095;
+  border-radius: 4px;
+  padding: 8px 16px 8px 16px;
+  margin: 12px 0px 12px 0px;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  width: 327px;  
+}
+
+.input-textarea::placeholder {
+  color: #091E42;
 }
