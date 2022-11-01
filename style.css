@@ -300,3 +300,14 @@ h3 {
   width: fit-content;
   align-self: center;
 }
+
+#contact-form{
+  text-align: center;
+}
+
+.input-fields {
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  height: 48px;
+  width: 327px;  
+}
