@@ -16,26 +16,17 @@ header {
   justify-content: space-around;
 }
 
-.div1 {
+.flex-column {
   display: flex;
   flex-direction: column;
 }
 
-.div2 {
-  display: flex;
-  flex-direction: column;
-}
-
-.div3 {
+.block-column {
   display: block;
   flex-direction: column;
-  text-align: center;
-  justify-content: space-around;
 }
 
-.div4 {
-  display: flex;
-  flex-direction: column;
+.div1 {
   text-align: center;
   justify-content: space-around;
   padding: 5px;
@@ -43,9 +34,7 @@ header {
   margin-left: 20px;
 }
 
-.div5 {
-  display: flex;
-  flex-direction: column;
+.div2 {
   text-align: center;
   justify-content: space-around;
   padding: 5px;
@@ -58,15 +47,11 @@ header {
   background: #fff;
   border-radius: 8px;
   height: 222px;
-  display: block;
-  flex-direction: column;
   text-align: center;
   justify-content: space-around;
 }
 
 .item2 {
-  display: flex;
-  flex-direction: column;
   text-align: center;
   align-content: center;
   justify-content: center;
@@ -85,8 +70,6 @@ header {
 }
 
 .title2 {
-  display: block;
-  flex-direction: column;
   text-align: center;
   justify-content: space-around;
   padding: 5px;
@@ -96,8 +79,6 @@ header {
 }
 
 .title3 {
-  display: block;
-  flex-direction: column;
   text-align: center;
   justify-content: space-around;
   padding: 5px;
@@ -193,8 +174,6 @@ p {
   background-color: #ebf0ee;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
-  display: flex;
-  flex-direction: column;
   align-items: center;
 }
 
@@ -230,7 +209,7 @@ p {
   padding: 16px;
 }
 
-.seeproject {
+.button-interact {
   width: fit-content;
   height: 48px;
   padding: 12px;
@@ -245,7 +224,7 @@ p {
   line-height: 24px;
 }
 
-.seeproject:hover {
+.button-interact:hover {
   width: fit-content;
   height: 48px;
   border: 0;
@@ -260,7 +239,7 @@ p {
   line-height: 24px;
 }
 
-.seeproject:active {
+.button-interact:active {
   width: fit-content;
   height: 48px;
   border: 0;
@@ -328,8 +307,6 @@ h3 {
 
 #contact-form {
   text-align: center;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
 }
 
@@ -344,7 +321,11 @@ h3 {
   font-size: 15px;
   line-height: 24px;
   height: 33px;
-  width: 327px;
+  width: 287px;
+}
+
+.input-fields::placeholder {
+  color: #6b778c;
 }
 
 .input-textarea {
@@ -357,7 +338,7 @@ h3 {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  width: 327px;
+  width: 287px;
   height: 114px;
 }
 
