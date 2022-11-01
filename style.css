@@ -36,8 +36,22 @@ header {
 .div4 {
   display: flex;
   flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  padding: 5px;
   margin-right: 20px;
   margin-left: 20px;
+}
+
+.div5 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  padding: 5px;
+  background-position: bottom right;
+  background-image: url("images/SVG/Frame\ \(1\).svg");
+  background-repeat: no-repeat;
 }
 
 .item {
@@ -87,9 +101,6 @@ header {
   text-align: center;
   justify-content: space-around;
   padding: 5px;
-  background-position: top right;
-  background-image: url("images/SVG/Frame\ \(1\).svg");
-  background-repeat: no-repeat;
 }
 
 h1 {
@@ -315,32 +326,32 @@ h3 {
   align-self: center;
 }
 
-#contact-form{
+#contact-form {
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content:center;
+  justify-content: center;
 }
 
 .input-fields {
   border: 1px solid #d0d9d4;
   border-radius: 4px;
   padding: 8px 16px 8px 16px;
-  margin: 12px 0px 12px 0px;
+  margin: 12px 0 12px 0;
   font-family: 'Inter', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
   height: 33px;
-  width: 327px;  
+  width: 327px;
 }
 
 .input-textarea {
-  border: 1px solid #60C095;
+  border: 1px solid #60c095;
   border-radius: 4px;
   padding: 8px 16px 8px 16px;
-  margin: 12px 0px 20px 0px;
+  margin: 12px 0 20px 0;
   font-family: 'Inter', serif;
   font-style: normal;
   font-weight: 400;
@@ -351,11 +362,7 @@ h3 {
 }
 
 .input-textarea::placeholder {
-  color: #091E42;
-}
-
-.input-textarea::-webkit-resizer {
-  border-width: 10px;
+  color: #091e42;
 }
 
 .h3email {
@@ -370,8 +377,8 @@ h3 {
 }
 
 .hrstyling {
-  border:#36B37E;
-  background-color: #36B37E;
+  border: #36b37e;
+  background-color: #36b37e;
   border-radius: 4px;
   width: 48px;
   height: 4px;
@@ -382,6 +389,7 @@ h3 {
   color: black;
   background-color: black;
   border-radius: 4px;
+  margin-top: 150px;
   width: 130px;
   height: 4px;
   align-self: center;
