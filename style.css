@@ -33,6 +33,13 @@ header {
   justify-content: space-around;
 }
 
+.div4 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
 .item {
   background: #fff;
   border-radius: 8px;
