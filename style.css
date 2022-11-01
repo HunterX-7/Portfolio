@@ -144,6 +144,15 @@ p {
   justify-content: space-between;
 }
 
+.socials2 {
+  width: 160px;
+  margin: 40px 110px 0 110px;
+  line-height: 28px;
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+}
+
 .container {
   height: 474px;
   margin-left: 10px;
@@ -193,12 +202,6 @@ p {
   display: flex;
   align-self: center;
   justify-content: space-between;
-}
-
-.greenseparator {
-  width: 48px;
-  height: 4px;
-  align-self: center;
 }
 
 .button {
@@ -323,7 +326,7 @@ h3 {
   border: 1px solid #60C095;
   border-radius: 4px;
   padding: 8px 16px 8px 16px;
-  margin: 12px 0px 12px 0px;
+  margin: 12px 0px 20px 0px;
   font-family: 'Inter', serif;
   font-style: normal;
   font-weight: 400;
@@ -339,4 +342,33 @@ h3 {
 
 .input-textarea::-webkit-resizer {
   border-width: 10px;
+}
+
+.h3email {
+  margin: 0;
+  padding: 16px;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #344563;
+}
+
+.hrstyling {
+  border:#36B37E;
+  background-color: #36B37E;
+  border-radius: 4px;
+  width: 48px;
+  height: 4px;
+  align-self: center;
+}
+
+.hrstyling2 {
+  color: black;
+  background-color: black;
+  border-radius: 4px;
+  width: 130px;
+  height: 4px;
+  align-self: center;
 }
