@@ -184,7 +184,8 @@ p {
   line-height: 16px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 0.25em;
 }
 
 .skills2 {
@@ -374,4 +375,16 @@ h3 {
   width: 130px;
   height: 4px;
   align-self: center;
+}
+
+.spacing1 {
+  margin-bottom: 15px;
+}
+
+.spacing2 {
+  margin-bottom: 30px;
+}
+
+.spacing3 {
+  margin-bottom: 45px;
 }
