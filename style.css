@@ -109,7 +109,7 @@ h1 {
   flex-direction: column;
   align-self: center;
   justify-content: center;
-  max-width: 350px;
+  width: 100%;
 }
 
 h2 {
@@ -137,6 +137,7 @@ ul {
 }
 
 p {
+  width: 90%;
   padding: 0 15px 0 15px;
   font-family: 'Inter', serif;
   font-style: normal;
@@ -421,7 +422,7 @@ h3 {
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .title-section {
@@ -438,6 +439,7 @@ h3 {
   }
 
   .menu-desktop {
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -527,11 +529,12 @@ h3 {
   }
 
   .h1-text {
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-self: center;
     justify-content: center;
-    max-width: 550px;
+    width: 55%;
   }
 
   h2 {
@@ -559,6 +562,7 @@ h3 {
   }
 
   p {
+    width: 60%;
     margin: 0;
     padding: 0 15px 0 15px;
     font-family: 'Inter', serif;
@@ -651,7 +655,7 @@ h3 {
     color: transparent;
     background-color: transparent;
     border: 0;
-    margin: 0 25px 150px 25px;
+    margin: 0 25px 350px 25px;
     display: flex;
     align-self: center;
     justify-content: space-between;
