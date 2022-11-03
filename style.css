@@ -136,8 +136,21 @@ ul {
   color: #36b37e;
 }
 
-p {
+.p1 {
   width: 90%;
+  padding: 0 15px 0 15px;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  align-self: center;
+  color: #172b4d;
+}
+
+.p2 {
+  margin: 0;
   padding: 0 15px 0 15px;
   font-family: 'Inter', serif;
   font-style: normal;
@@ -177,7 +190,7 @@ p {
 .container {
   min-height: 474px;
   margin-left: 10px;
-  margin-right: 10px;
+  margin-right: 5px;
   background-color: #ebf0ee;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
@@ -561,8 +574,22 @@ h3 {
     color: #36b37e;
   }
 
-  p {
+  .p1 {
     width: 60%;
+    margin: 0;
+    padding: 0 15px 0 15px;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    align-self: center;
+    color: #172b4d;
+  }
+
+  .p2 {
+    width: 65%;
     margin: 0;
     padding: 0 15px 0 15px;
     font-family: 'Inter', serif;
@@ -611,9 +638,18 @@ h3 {
     justify-content: space-between;
   }
 
+  .work-grid {
+    display: grid;
+    align-self: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 15px;
+  }
+
   .container {
     min-height: 474px;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-right: 10px;
     background-color: #ebf0ee;
     border: 1px solid #d0d9d4;
@@ -814,6 +850,7 @@ h3 {
   }
 
   .hrstyling {
+    display: none;
     border: #36b37e;
     background-color: #36b37e;
     border-radius: 4px;
