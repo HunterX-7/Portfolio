@@ -510,7 +510,7 @@ h3 {
 
   .title1 {
     background-position: top -15px right;
-    background-image: url("images/SVG/illustration\ 1-\ about\ me-mobile.svg");
+    background-image: none;
     background-repeat: no-repeat;
   }
 
@@ -519,7 +519,7 @@ h3 {
     justify-content: space-around;
     padding: 5px;
     background-position: top left;
-    background-image: url("images/SVG/Frame.svg");
+    background-image: none;
     background-repeat: no-repeat;
   }
 
@@ -527,6 +527,14 @@ h3 {
     text-align: center;
     justify-content: space-around;
     padding: 5px;
+  }
+
+  .title4 {
+    margin-top: 45px;
+    background-size: 1300px 375px, 225px 125px;
+    background-position: top -60px right, bottom 25px left;
+    background-image: url("images/SVG/illustration\ about\ me\ desktop.svg"), url("images/SVG/Microverse-Student-Project-1/illustration-about-me-2-desktop.svg");
+    background-repeat: no-repeat;
   }
 
   h1 {
@@ -589,7 +597,7 @@ h3 {
   }
 
   .p2 {
-    width: 65%;
+    width: 40%;
     margin: 0;
     padding: 0 15px 0 15px;
     font-family: 'Inter', serif;
@@ -645,6 +653,19 @@ h3 {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     row-gap: 15px;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+  }
+
+  .aboutme-grid {
+    display: grid;
+    align-self: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    row-gap: 15px;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
   }
 
   .container {
