@@ -226,31 +226,35 @@
             </div>
         </div>
     </section>
-    <section>
+    <section class="title5">
         <!-- Contact form -->
-        <div class="div1 flex-column">
-            <h2 class="color1">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
+        <div class="contact-grid spacing4">
+            <div class="div1 flex-column">
+                <h2 class="h2-contact color1">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
+            </div>
+            
+            <div class="div2 flex-column">
+                <form id="contact-form flex-column" action="https://formspree.io/f/mlevonav" method="POST">
+                    <div>
+                        <input class="input-fields" type="text" name="name" id="name" placeholder="Full Name" maxlength="30" required>
+                    </div>
+                    <div>
+                        <input class="input-fields" type="email" name="email" id="email" placeholder="Email Address" required>
+                    </div>
+                    <div>
+                        <textarea class="input-textarea" name="message" id="message" placeholder="Enter text here" cols="20" rows="10" maxlength="500" required></textarea>
+                    </div>
+                    <div class="title3 block-column">
+                        <button class="button-interact" type="submit">
+                            Get in touch
+                        </button>
+                    </div>
+                </form>
+            </div>
         </div>
         
-        <div class="div2 flex-column">
-            <form id="contact-form flex-column" action="https://formspree.io/f/mlevonav" method="POST">
-                <div>
-                    <input class="input-fields" type="text" name="name" id="name" placeholder="Full Name" maxlength="30" required>
-                </div>
-                <div>
-                    <input class="input-fields" type="email" name="email" id="email" placeholder="Email Address" required>
-                </div>
-                <div>
-                    <textarea class="input-textarea" name="message" id="message" placeholder="Enter text here" cols="20" rows="10" maxlength="500" required></textarea>
-                </div>
-                <div class="title3 block-column">
-                    <button class="button-interact" type="submit">
-                        Get in touch
-                    </button>
-                </div>
-            </form>
-        </div>
-        <footer class="div1 flex-column">
+        <footer class="flex-column">
+            <hr class="hrstyling3">
             <ul class="socials2">
                 <li><a href="#"><img src="images/SVG/twitter.svg" alt="twitter-icon"></a></li>
                 <li><a href="#"><img src="images/SVG/Linkedin icon.svg" alt="linkedin-icon"></a></li>

@@ -88,7 +88,6 @@ header {
 }
 
 .title3 {
-  text-align: center;
   justify-content: space-around;
   padding: 5px;
 }
@@ -420,6 +419,10 @@ h3 {
   margin-bottom: 45px;
 }
 
+.spacing4 {
+  margin-bottom: 45px;
+}
+
 .antispacing1 {
   margin-bottom: -15px;
 }
@@ -478,11 +481,11 @@ h3 {
   }
 
   .div2 {
-    text-align: center;
+    text-align: left;
     justify-content: space-around;
     padding: 5px;
     background-position: bottom right;
-    background-image: url("images/SVG/Frame\ \(1\).svg");
+    background-image: none;
     background-repeat: no-repeat;
   }
 
@@ -524,16 +527,23 @@ h3 {
   }
 
   .title3 {
-    text-align: center;
     justify-content: space-around;
     padding: 5px;
+    margin-bottom: 150px;
   }
 
   .title4 {
-    margin-top: 45px;
-    background-size: 1300px 375px, 225px 125px;
+    margin-top: 70px;
+    background-size: 1300px 410px, 225px 125px;
     background-position: top -60px right, bottom 25px left;
     background-image: url("images/SVG/illustration\ about\ me\ desktop.svg"), url("images/SVG/Microverse-Student-Project-1/illustration-about-me-2-desktop.svg");
+    background-repeat: no-repeat;
+  }
+
+  .title5 {
+    background-size: 170px 375px, 100px 100px, 260px 280px;
+    background-position: bottom 55px right 20px, bottom 85px left 200px, bottom 25px left -50px;
+    background-image: url("images/SVG/Microverse-Student-Project-1/Frame.svg"), url("images/SVG/Microverse-Student-Project-1/illustration-2-contact-form-desktop.svg"), url("images/SVG/Microverse-Student-Project-1/Frame-1.svg");
     background-repeat: no-repeat;
   }
 
@@ -563,6 +573,18 @@ h3 {
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    align-content: center;
+    align-self: center;
+  }
+
+  .h2-contact {
+    margin-top: -150px;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
     line-height: 52px;
     text-align: center;
     align-content: center;
@@ -639,7 +661,7 @@ h3 {
 
   .socials2 {
     width: 160px;
-    margin: 40px 110px 0 110px;
+    margin: 20px 110px 0 110px;
     line-height: 28px;
     display: flex;
     align-self: center;
@@ -662,6 +684,18 @@ h3 {
     align-self: center;
     justify-content: center;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    row-gap: 15px;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+  }
+
+  .contact-grid {
+    margin-top: 70px;
+    display: grid;
+    align-self: center;
+    justify-content: center;
+    grid-template-columns: 0.45fr 0.55fr;
     grid-template-rows: 1fr;
     row-gap: 15px;
     margin-left: 7.5%;
@@ -834,7 +868,7 @@ h3 {
     font-size: 15px;
     line-height: 24px;
     min-height: 33px;
-    width: 287px;
+    min-width: 90%;
   }
 
   .input-fields::placeholder {
@@ -851,7 +885,7 @@ h3 {
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-    width: 287px;
+    min-width: 90%;
     min-height: 114px;
   }
 
@@ -860,6 +894,7 @@ h3 {
   }
 
   .h3email {
+    display: none;
     margin: 0;
     padding: 16px;
     font-family: 'Inter', serif;
@@ -881,12 +916,22 @@ h3 {
   }
 
   .hrstyling2 {
+    display: none;
     color: black;
     background-color: black;
     border-radius: 4px;
     margin-top: 150px;
     width: 130px;
     height: 4px;
+    align-self: center;
+  }
+
+  .hrstyling3 {
+    margin: 0;
+    border: 0;
+    background-color: #dfe1e6;
+    width: 100%;
+    height: 1px;
     align-self: center;
   }
 
@@ -900,5 +945,9 @@ h3 {
 
   .spacing3 {
     margin-bottom: 45px;
+  }
+
+  .spacing4 {
+    margin-bottom: -20px;
   }
 }
