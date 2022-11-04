@@ -644,7 +644,7 @@ h3 {
   }
 
   .action:hover {
-    transform: scale(1.2);
+    transform: translateY(15px);
   }
 
   .button-interact {
@@ -958,7 +958,7 @@ h3 {
     color: transparent;
     background-color: transparent;
     border: 0;
-    margin: 0 25px 350px 25px;
+    margin: 0 25px 385px 25px;
     display: flex;
     align-self: center;
     justify-content: space-between;
@@ -966,7 +966,7 @@ h3 {
   }
 
   .action:hover {
-    transform: scale(1.2);
+    transform: translateY(15px);
   }
 
   .button-interact {
