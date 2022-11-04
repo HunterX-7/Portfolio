@@ -336,11 +336,6 @@ h3 {
   align-self: center;
 }
 
-#contact-form {
-  text-align: center;
-  justify-content: center;
-}
-
 .input-fields {
   border: 1px solid #d0d9d4;
   border-radius: 4px;
@@ -370,7 +365,7 @@ h3 {
   font-size: 15px;
   line-height: 24px;
   width: 287px;
-  min-height: 114px;
+  height: 100px;
 }
 
 .input-textarea::placeholder {
@@ -386,6 +381,7 @@ h3 {
   font-size: 24px;
   line-height: 32px;
   color: #344563;
+  text-align: center;
 }
 
 .hrstyling {
@@ -441,11 +437,6 @@ h3 {
     justify-content: center;
   }
 
-  .title-section {
-    margin: 0;
-    padding: 0;
-  }
-
   .welcome {
     display: none;
   }
@@ -455,29 +446,11 @@ h3 {
   }
 
   .menu-desktop {
-    margin-top: 20px;
+    margin-top: 15px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-align: center;
-  }
-
-  .flex-column {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .block-column {
-    display: block;
-    flex-direction: column;
-  }
-
-  .div1 {
-    text-align: center;
-    justify-content: space-around;
-    padding: 5px;
-    margin-right: 20px;
-    margin-left: 20px;
   }
 
   .div2 {
@@ -487,20 +460,6 @@ h3 {
     background-position: bottom right;
     background-image: none;
     background-repeat: no-repeat;
-  }
-
-  .item {
-    background: #fff;
-    border-radius: 8px;
-    min-height: 222px;
-    text-align: center;
-    justify-content: space-around;
-  }
-
-  .item2 {
-    text-align: center;
-    align-content: center;
-    justify-content: center;
   }
 
   .title {
@@ -542,45 +501,21 @@ h3 {
 
   .title5 {
     background-size: 170px 375px, 100px 100px, 260px 280px;
-    background-position: bottom 55px right 20px, bottom 85px left 200px, bottom 25px left -50px;
+    background-position: bottom 55px right 0, bottom 85px left 200px, bottom 25px left -50px;
     background-image: url("images/SVG/Microverse-Student-Project-1/Frame.svg"), url("images/SVG/Microverse-Student-Project-1/illustration-2-contact-form-desktop.svg"), url("images/SVG/Microverse-Student-Project-1/Frame-1.svg");
     background-repeat: no-repeat;
   }
 
-  h1 {
-    padding: 0;
-    font-family: 'Inter', serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 48px;
-    line-height: 60px;
-    text-align: center;
-    letter-spacing: 0.37px;
-    align-content: center;
-  }
-
   .h1-text {
-    margin-top: 100px;
+    margin-top: 80px;
     display: flex;
     flex-direction: column;
     align-self: center;
     justify-content: center;
-    width: 55%;
-  }
-
-  h2 {
-    font-family: 'Inter', serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-    text-align: center;
-    align-content: center;
-    align-self: center;
   }
 
   .h2-contact {
-    margin-top: -150px;
+    margin-top: -185px;
     font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 700;
@@ -591,22 +526,8 @@ h3 {
     align-self: center;
   }
 
-  ul {
-    list-style-type: none;
-    padding-inline-start: 0;
-  }
-
-  .color1 {
-    color: #172b4d;
-  }
-
-  .color2 {
-    color: #36b37e;
-  }
-
   .p1 {
-    width: 60%;
-    margin: 0;
+    width: 55%;
     padding: 0 15px 0 15px;
     font-family: 'Inter', serif;
     font-style: normal;
@@ -632,12 +553,6 @@ h3 {
     color: #172b4d;
   }
 
-  .hicon {
-    color: transparent;
-    background-color: transparent;
-    border: 0;
-  }
-
   .hicon-desktop {
     padding: 0 10px 0 10px;
     text-decoration: none;
@@ -647,16 +562,6 @@ h3 {
     font-size: 15px;
     line-height: 20px;
     color: #344563;
-  }
-
-  .socials {
-    width: 160px;
-    height: 64px;
-    margin: 0 110px 0 110px;
-    line-height: 28px;
-    display: flex;
-    align-self: center;
-    justify-content: space-between;
   }
 
   .socials2 {
@@ -713,35 +618,6 @@ h3 {
     grid-template-rows: 252px 89px;
   }
 
-  .container2 {
-    min-height: 352px;
-    margin-left: 20px;
-    margin-right: 20px;
-    background-color: #ebf0ee;
-    border: 1px solid #d0d9d4;
-    border-radius: 8px;
-    align-items: center;
-  }
-
-  .skills {
-    margin: 0;
-    width: auto;
-    height: 32px;
-    line-height: 16px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0.25em;
-  }
-
-  .skills2 {
-    padding: 0 2px 0 2px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 8px;
-  }
-
   .action {
     color: transparent;
     background-color: transparent;
@@ -750,111 +626,6 @@ h3 {
     display: flex;
     align-self: center;
     justify-content: space-between;
-  }
-
-  .button {
-    padding: 16px;
-  }
-
-  .button-interact {
-    width: fit-content;
-    height: 48px;
-    padding: 12px;
-    border: 0;
-    background: #36b37f;
-    color: #fff;
-    border-radius: 4px;
-    font-family: 'Inter', serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-  }
-
-  .button-interact:hover {
-    width: fit-content;
-    height: 48px;
-    border: 0;
-    background: #36b37f;
-    box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
-    color: #fff;
-    border-radius: 4px;
-    font-family: 'Inter', serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-  }
-
-  .button-interact:active {
-    width: fit-content;
-    height: 48px;
-    border: 0;
-    background: #008552;
-    color: #fff;
-    border-radius: 4px;
-    font-family: 'Inter', serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-  }
-
-  .skills1 {
-    width: fit-content;
-    height: 16px;
-    padding: 8px 12px;
-    margin: 0;
-    background: #ebf0ee;
-    border-radius: 4px;
-    color: #3a4a42;
-    font-family: 'Inter', serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-  }
-
-  .skills3 {
-    width: fit-content;
-    height: 16px;
-    padding: 8px 12px;
-    margin: 0;
-    background: #fff;
-    border-radius: 4px;
-    color: #36b37e;
-    font-family: 'Inter', serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-  }
-
-  h3 {
-    margin: 0;
-    padding: 16px;
-    font-family: 'Inter', serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 32px;
-    color: #344563;
-  }
-
-  .icon-skills {
-    margin-top: 30px;
-  }
-
-  .snapshoot {
-    width: fit-content;
-    align-self: center;
-  }
-
-  #contact-form {
-    text-align: center;
-    justify-content: center;
   }
 
   .input-fields {
@@ -871,10 +642,6 @@ h3 {
     min-width: 90%;
   }
 
-  .input-fields::placeholder {
-    color: #6b778c;
-  }
-
   .input-textarea {
     border: 1px solid #60c095;
     border-radius: 4px;
@@ -886,11 +653,7 @@ h3 {
     font-size: 15px;
     line-height: 24px;
     min-width: 90%;
-    min-height: 114px;
-  }
-
-  .input-textarea::placeholder {
-    color: #091e42;
+    min-height: 100px;
   }
 
   .h3email {
@@ -935,16 +698,276 @@ h3 {
     align-self: center;
   }
 
-  .spacing1 {
-    margin-bottom: 15px;
+  .spacing4 {
+    margin-bottom: -20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  header {
+    display: flex;
+    justify-content: center;
   }
 
-  .spacing2 {
-    margin-bottom: 30px;
+  .welcome {
+    display: none;
   }
 
-  .spacing3 {
-    margin-bottom: 45px;
+  .menu {
+    display: none;
+  }
+
+  .menu-desktop {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .div2 {
+    text-align: left;
+    justify-content: space-around;
+    padding: 5px;
+    background-position: bottom right;
+    background-image: none;
+    background-repeat: no-repeat;
+  }
+
+  .title {
+    padding: 0;
+    width: fit-content;
+    height: fit-content;
+    background-image: url("images/SVG/Header-llustration-desktop.svg");
+    background-repeat: no-repeat;
+  }
+
+  .title1 {
+    background-position: top -15px right;
+    background-image: none;
+    background-repeat: no-repeat;
+  }
+
+  .title2 {
+    text-align: center;
+    justify-content: space-around;
+    padding: 5px;
+    background-position: top left;
+    background-image: none;
+    background-repeat: no-repeat;
+  }
+
+  .title3 {
+    justify-content: space-around;
+    padding: 5px;
+    margin-bottom: 150px;
+  }
+
+  .title4 {
+    margin-top: 70px;
+    background-size: 1300px 410px, 225px 125px;
+    background-position: top -60px right, bottom 25px left;
+    background-image: url("images/SVG/illustration\ about\ me\ desktop.svg"), url("images/SVG/Microverse-Student-Project-1/illustration-about-me-2-desktop.svg");
+    background-repeat: no-repeat;
+  }
+
+  .title5 {
+    background-size: 170px 375px, 100px 100px, 260px 280px;
+    background-position: bottom 55px right 0, bottom 85px left 200px, bottom 25px left -50px;
+    background-image: url("images/SVG/Microverse-Student-Project-1/Frame.svg"), url("images/SVG/Microverse-Student-Project-1/illustration-2-contact-form-desktop.svg"), url("images/SVG/Microverse-Student-Project-1/Frame-1.svg");
+    background-repeat: no-repeat;
+  }
+
+  .h1-text {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+  }
+
+  .h2-contact {
+    margin-top: -185px;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 52px;
+    text-align: center;
+    align-content: center;
+    align-self: center;
+  }
+
+  .p1 {
+    width: 55%;
+    padding: 0 15px 0 15px;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    align-self: center;
+    color: #172b4d;
+  }
+
+  .p2 {
+    width: 60%;
+    margin: 0;
+    padding: 0 15px 0 15px;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    align-self: center;
+    color: #172b4d;
+  }
+
+  .hicon-desktop {
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+  }
+
+  .socials2 {
+    width: 160px;
+    margin: 20px 110px 0 110px;
+    line-height: 28px;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+  }
+
+  .work-grid {
+    display: grid;
+    align-self: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 15px;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+  }
+
+  .aboutme-grid {
+    display: grid;
+    align-self: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    row-gap: 15px;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+  }
+
+  .contact-grid {
+    margin-top: 70px;
+    display: grid;
+    align-self: center;
+    justify-content: center;
+    grid-template-columns: 0.45fr 0.55fr;
+    grid-template-rows: 1fr;
+    row-gap: 15px;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+  }
+
+  .container {
+    min-height: 474px;
+    margin-left: 20px;
+    margin-right: 10px;
+    background-color: #ebf0ee;
+    border: 1px solid #d0d9d4;
+    border-radius: 8px;
+    display: grid;
+    grid-template-rows: 252px 89px;
+  }
+
+  .action {
+    color: transparent;
+    background-color: transparent;
+    border: 0;
+    margin: 0 25px 350px 25px;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+  }
+
+  .input-fields {
+    border: 1px solid #d0d9d4;
+    border-radius: 4px;
+    padding: 8px 16px 8px 16px;
+    margin: 12px 0 12px 0;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    min-height: 33px;
+    min-width: 90%;
+  }
+
+  .input-textarea {
+    border: 1px solid #60c095;
+    border-radius: 4px;
+    padding: 8px 16px 8px 16px;
+    margin: 12px 0 20px 0;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    min-width: 90%;
+    min-height: 100px;
+  }
+
+  .h3email {
+    display: none;
+    margin: 0;
+    padding: 16px;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #344563;
+  }
+
+  .hrstyling {
+    display: none;
+    border: #36b37e;
+    background-color: #36b37e;
+    border-radius: 4px;
+    width: 48px;
+    height: 4px;
+    align-self: center;
+  }
+
+  .hrstyling2 {
+    display: none;
+    color: black;
+    background-color: black;
+    border-radius: 4px;
+    margin-top: 150px;
+    width: 130px;
+    height: 4px;
+    align-self: center;
+  }
+
+  .hrstyling3 {
+    margin: 0;
+    border: 0;
+    background-color: #dfe1e6;
+    width: 100%;
+    height: 1px;
+    align-self: center;
   }
 
   .spacing4 {
