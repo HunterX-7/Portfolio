@@ -564,6 +564,12 @@ h3 {
     color: #344563;
   }
 
+  .hicon-desktop:hover {
+    transform: scale(1.2);
+    color: #36b37e;
+    transition: transform 0.2s;
+  }
+
   .socials2 {
     width: 160px;
     margin: 20px 110px 0 110px;
