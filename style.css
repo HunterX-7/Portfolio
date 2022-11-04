@@ -660,6 +660,11 @@ h3 {
     min-width: 90%;
   }
 
+  .input-fields:hover {
+    transform: translateX(10px);
+    transition: transform 0.2s;
+  }
+
   .input-textarea {
     border: 1px solid #60c095;
     border-radius: 4px;
