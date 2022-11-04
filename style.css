@@ -562,12 +562,20 @@ h3 {
     font-size: 15px;
     line-height: 20px;
     color: #344563;
+    transition: 0.35s;
   }
 
   .hicon-desktop:hover {
     transform: scale(1.2);
     color: #36b37e;
-    transition: transform 0.2s;
+  }
+
+  .socials-icon {
+    transition: 0.35s;
+  }
+
+  .socials-icon:hover {
+    transform: scale(1.2);
   }
 
   .socials2 {
@@ -632,18 +640,32 @@ h3 {
     display: flex;
     align-self: center;
     justify-content: space-between;
+    transition: 0.35s;
+  }
+
+  .action:hover {
+    transform: scale(1.2);
+  }
+
+  .button-interact {
+    transition: 0.35s;
+  }
+
+  .button-interact:hover {
+    background: #1e488f;
+    box-shadow: 0 8px 16px rgba(30, 72, 143, 0.24);
+  }
+
+  .button-interact:active {
+    background: #0a2759;
   }
 
   .snapshoot {
-    width: fit-content;
-    align-self: center;
+    transition: 0.35s;
   }
 
   .snapshoot:hover {
-    width: fit-content;
-    align-self: center;
     transform: scale(0.95);
-    transition: transform 0.2s;
   }
 
   .input-fields {
@@ -658,11 +680,11 @@ h3 {
     line-height: 24px;
     min-height: 33px;
     min-width: 90%;
+    transition: 0.35s;
   }
 
   .input-fields:hover {
     transform: translateX(10px);
-    transition: transform 0.2s;
   }
 
   .input-textarea {
@@ -677,6 +699,11 @@ h3 {
     line-height: 24px;
     min-width: 90%;
     min-height: 100px;
+    transition: 0.35s;
+  }
+
+  .input-textarea:hover {
+    transform: translateX(10px);
   }
 
   .h3email {
@@ -857,6 +884,20 @@ h3 {
     font-size: 15px;
     line-height: 20px;
     color: #344563;
+    transition: 0.35s;
+  }
+
+  .hicon-desktop:hover {
+    transform: scale(1.2);
+    color: #36b37e;
+  }
+
+  .socials-icon {
+    transition: 0.35s;
+  }
+
+  .socials-icon:hover {
+    transform: scale(1.2);
   }
 
   .socials2 {
@@ -921,6 +962,32 @@ h3 {
     display: flex;
     align-self: center;
     justify-content: space-between;
+    transition: 0.35s;
+  }
+
+  .action:hover {
+    transform: scale(1.2);
+  }
+
+  .button-interact {
+    transition: 0.35s;
+  }
+
+  .button-interact:hover {
+    background: #1e488f;
+    box-shadow: 0 8px 16px rgba(30, 72, 143, 0.24);
+  }
+
+  .button-interact:active {
+    background: #0a2759;
+  }
+
+  .snapshoot {
+    transition: 0.35s;
+  }
+
+  .snapshoot:hover {
+    transform: scale(0.95);
   }
 
   .input-fields {
@@ -935,6 +1002,11 @@ h3 {
     line-height: 24px;
     min-height: 33px;
     min-width: 90%;
+    transition: 0.35s;
+  }
+
+  .input-fields:hover {
+    transform: translateX(10px);
   }
 
   .input-textarea {
@@ -949,6 +1021,11 @@ h3 {
     line-height: 24px;
     min-width: 90%;
     min-height: 100px;
+    transition: 0.35s;
+  }
+
+  .input-textarea:hover {
+    transform: translateX(10px);
   }
 
   .h3email {
