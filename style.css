@@ -634,6 +634,18 @@ h3 {
     justify-content: space-between;
   }
 
+  .snapshoot {
+    width: fit-content;
+    align-self: center;
+  }
+
+  .snapshoot:hover {
+    width: fit-content;
+    align-self: center;
+    transform: scale(0.95);
+    transition: transform 0.2s;
+  }
+
   .input-fields {
     border: 1px solid #d0d9d4;
     border-radius: 4px;
