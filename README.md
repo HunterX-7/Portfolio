@@ -8,6 +8,10 @@ The following portfolio was created to showcase my skills as a software develope
 - HTML
 - CSS
 
+## Live Demo
+
+[Live Demo Link](https://hunterx-7.github.io/Portfolio/)
+
 ## Getting Started
 
 To get a local copy up and running follow these steps:
