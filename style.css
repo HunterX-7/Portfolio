@@ -81,7 +81,7 @@ header {
 .title2 {
   text-align: center;
   justify-content: space-around;
-  padding: 5px;
+  padding: 20px;
   background-position: top left;
   background-image: url("images/SVG/Frame.svg");
   background-repeat: no-repeat;
@@ -161,12 +161,6 @@ ul {
   color: #172b4d;
 }
 
-.hicon {
-  color: transparent;
-  background-color: transparent;
-  border: 0;
-}
-
 .socials {
   width: 160px;
   height: 64px;
@@ -227,20 +221,14 @@ ul {
 }
 
 .action {
-  color: transparent;
-  background-color: transparent;
-  border: 0;
   margin: 60px 25px 0 25px;
   display: flex;
   align-self: center;
   justify-content: space-between;
 }
 
-.button {
-  padding: 16px;
-}
-
 .button-interact {
+  text-decoration: none;
   width: fit-content;
   height: 48px;
   padding: 12px;
@@ -307,7 +295,7 @@ ul {
   margin: 0;
   background: #fff;
   border-radius: 4px;
-  color: #36b37e;
+  color: #28845d;
   font-family: 'Inter', serif;
   font-style: normal;
   font-weight: 600;
@@ -338,6 +326,7 @@ h3 {
 
 .form-label {
   visibility: hidden;
+  position: absolute; 
 }
 
 .input-fields {
@@ -421,6 +410,10 @@ h3 {
 
 .spacing4 {
   margin-bottom: 45px;
+}
+
+.spacing5 {
+  margin-bottom: 50px;
 }
 
 .antispacing1 {
@@ -637,9 +630,6 @@ h3 {
   }
 
   .action {
-    color: transparent;
-    background-color: transparent;
-    border: 0;
     margin: 0 25px 350px 25px;
     display: flex;
     align-self: center;
@@ -959,9 +949,6 @@ h3 {
   }
 
   .action {
-    color: transparent;
-    background-color: transparent;
-    border: 0;
     margin: 0 25px 385px 25px;
     display: flex;
     align-self: center;
