@@ -435,12 +435,9 @@ h3 {
 
 .close-icon {
   position: fixed;
-  top: 62px;
-  right: 38px;
+  top: 45px;
+  right: 35px;
   z-index: 100;
-  font-size: 2rem;
-  color: #fff;
-  padding: 1rem;
 }
 
 .mobile-menu {
@@ -450,9 +447,9 @@ h3 {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: #008552;
+  background: #fff;
+  mix-blend-mode: normal;
   z-index: 1;
-  opacity: 0.85;
   padding-top: 106px;
 }
 
@@ -464,16 +461,14 @@ h3 {
 
 .mobile-list a {
   text-decoration: none;
+  font-family: 'Inter', serif;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
-  display: flex;
-  align-items: center;
   padding-left: 28px;
-  padding-bottom: 40px;
-  color: #fff;
-  gap: 40px;
+  padding-bottom: 20px;
+  color: #3a4a42;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
