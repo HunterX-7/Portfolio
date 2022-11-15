@@ -428,6 +428,49 @@ h3 {
   margin-bottom: -45px;
 }
 
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+.close-icon {
+  position: fixed;
+  top: 45px;
+  right: 35px;
+  z-index: 100;
+}
+
+.mobile-menu {
+  position: fixed;
+  margin: 0;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #fff;
+  mix-blend-mode: normal;
+  z-index: 1;
+  padding-top: 106px;
+}
+
+.mobile-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.mobile-list a {
+  text-decoration: none;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  padding-left: 28px;
+  padding-bottom: 20px;
+  color: #3a4a42;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   header {
     display: flex;
