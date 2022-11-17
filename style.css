@@ -161,6 +161,19 @@ ul {
   color: #172b4d;
 }
 
+.p3 {
+  width: 90%;
+  padding: 0 15px 0 15px;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+  align-self: center;
+  color: #344563;
+}
+
 .socials {
   width: 160px;
   height: 64px;
@@ -201,7 +214,29 @@ ul {
   align-items: center;
 }
 
+.container3 {
+  min-height: 840px;
+  margin-left: 10px;
+  margin-right: 5px;
+  background-color: #ffffff;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+  display: grid;
+  grid-template-rows: 252px 89px;
+}
+
 .skills {
+  margin: 0;
+  max-width: auto;
+  height: 32px;
+  line-height: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.25em;
+}
+
+.skills-wp {
   margin: 0;
   max-width: auto;
   height: 32px;
@@ -313,6 +348,18 @@ h3 {
   font-size: 24px;
   line-height: 32px;
   color: #344563;
+}
+
+.h3 {
+  text-align: left;
+  margin: 0;
+  padding: 10px;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172B4D;
 }
 
 .icon-skills {
@@ -449,7 +496,7 @@ h3 {
   height: 100vh;
   background: #fff;
   mix-blend-mode: normal;
-  z-index: 1;
+  z-index: 2;
   padding-top: 106px;
 }
 
@@ -469,6 +516,71 @@ h3 {
   padding-left: 28px;
   padding-bottom: 20px;
   color: #3a4a42;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.i-back1 {
+  background-image : url("images/SVG/Popup/see\ live\ icon.svg");
+  background-size: cover;
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+}
+
+.i-back2 {
+    background-image : url("images/SVG/Popup/Github\ White\ Icon.svg");
+    background-size: cover;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+  }
+
+.btn {
+  position: relative;
+  z-index: 1;
+  background-color: transparent;
+  top: 5%;
+  left: 90%;
+  background-image: url("images/SVG/X-Icon.svg");
+  background-size: cover;
+  height: 15px;
+  width: 15px;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.snapshoot2 {
+  position: relative;
+  width: fit-content;
+  align-self: center;
+}
+
+.display1 {
+  visibility: hidden;
+  position: absolute;
+}
+
+.display2 {
+  visibility: visible;
+}
+
+.wp-div {
+  position: relative;
+  top: 25%;
+  right: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  gap: 10px;
+  margin: 10px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
@@ -593,6 +705,32 @@ h3 {
     color: #172b4d;
   }
 
+  .p3 {
+    width: 90%;
+    padding: 0 15px 0 15px;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    align-self: center;
+    color: #344563;
+  }
+
+  .h3 {
+    width: 55%;
+    text-align: left;
+    margin: 0;
+    padding: 10px;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172B4D;
+  }
+
   .hicon-desktop {
     padding: 0 10px 0 10px;
     text-decoration: none;
@@ -638,6 +776,17 @@ h3 {
     margin-right: 7.5%;
   }
 
+  .work-grid2 {
+    display: grid;
+    align-self: center;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    row-gap: 15px;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+  }
+
   .aboutme-grid {
     display: grid;
     align-self: center;
@@ -670,6 +819,28 @@ h3 {
     border-radius: 8px;
     display: grid;
     grid-template-rows: 252px 89px;
+  }
+
+  .container3 {
+    min-height: 730px;
+    margin-left: 20px;
+    margin-right: 10px;
+    background-color: #ffffff;
+    border: 1px solid #d0d9d4;
+    border-radius: 8px;
+    display: grid;
+    grid-template-rows: 252px 89px;
+  }
+
+  .skills-wp {
+    margin: 10px;
+    max-width: auto;
+    height: 32px;
+    line-height: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 0.25em;
   }
 
   .action {
@@ -787,6 +958,34 @@ h3 {
 
   .spacing4 {
     margin-bottom: -20px;
+  }
+
+  .btn {
+    position: relative;
+    z-index: 1;
+    background-color: transparent;
+    top: 5%;
+    left: 90%;
+    background-image: url("images/SVG/Popup/Chunky\ X\ button.svg");
+    background-size: cover;
+    height: 15px;
+    width: 15px;
+    border: none;
+    color: white;
+    padding: 18px 18px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .display1 {
+    visibility: visible;
+    position: relative;
+  }
+
+  .display2 {
+    visibility: hidden;
+    position: absolute;
   }
 }
 
@@ -912,6 +1111,32 @@ h3 {
     color: #172b4d;
   }
 
+  .p3 {
+    width: 90%;
+    padding: 0 15px 0 15px;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    align-self: center;
+    color: #344563;
+  }
+
+  .h3 {
+    width: 55%;
+    text-align: left;
+    margin: 0;
+    padding: 10px;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172B4D;
+  }
+
   .hicon-desktop {
     padding: 0 10px 0 10px;
     text-decoration: none;
@@ -957,6 +1182,17 @@ h3 {
     margin-right: 7.5%;
   }
 
+  .work-grid2 {
+    display: grid;
+    align-self: center;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    row-gap: 15px;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+  }
+
   .aboutme-grid {
     display: grid;
     align-self: center;
@@ -989,6 +1225,28 @@ h3 {
     border-radius: 8px;
     display: grid;
     grid-template-rows: 252px 89px;
+  }
+
+  .container3 { 
+    min-height: 730px;
+    margin-left: 20px;
+    margin-right: 10px;
+    background-color: #ffffff;
+    border: 1px solid #d0d9d4;
+    border-radius: 8px;
+    display: grid;
+    grid-template-rows: 252px 89px;
+  }
+
+  .skills-wp {
+    margin: 10px;
+    max-width: auto;
+    height: 32px;
+    line-height: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 0.25em;
   }
 
   .action {
@@ -1106,5 +1364,33 @@ h3 {
 
   .spacing4 {
     margin-bottom: -20px;
+  }
+
+  .btn {
+    position: relative;
+    z-index: 1;
+    background-color: transparent;
+    top: 5%;
+    left: 90%;
+    background-image: url("images/SVG/Popup/Chunky\ X\ button.svg");
+    background-size: cover;
+    height: 15px;
+    width: 15px;
+    border: none;
+    color: white;
+    padding: 18px 18px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .display1 {
+    visibility: visible;
+    position: relative;
+  }
+
+  .display2 {
+    visibility: hidden;
+    position: absolute;
   }
 }
