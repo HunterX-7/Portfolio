@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Francisco's Portfolio home page</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <a class="welcome" href="#"><img src="images/SVG/Logo Placeholder.svg" alt="welcome logo"></a>
@@ -30,18 +32,21 @@
                 </nav>
             </header>
             <div class="h1-text antispacing1">
-                <h1 class="color1">Hey there. I'm Francisco<br><span class="color2">I'm a software developer</span></br></h1>
+                <h1 class="color1">Hey there. I'm Francisco<br><span class="color2">I'm a software developer</span></br>
+                </h1>
             </div>
-                <p class="p1 spacing2">I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, 
-                    don't hesitate to contact me.</p>
+            <p class="p1 spacing2">I can help you build a product, feature or website. Look through some of my work and
+                experience! If you like what you see and have a project you need coded,
+                don't hesitate to contact me.</p>
             <ul class="socials">
                 <li><a href="#"><img class="socials-icon" src="images/SVG/twitter.svg" alt="twitter logo"></a></li>
-                <li><a href="#"><img class="socials-icon" src="images/SVG/Linkedin icon.svg" alt="linkedin logo"></a></li>
+                <li><a href="#"><img class="socials-icon" src="images/SVG/Linkedin icon.svg" alt="linkedin logo"></a>
+                </li>
                 <li><a href="#"><img class="socials-icon" src="images/SVG/medium.svg" alt="medium logo"></a></li>
                 <li><a href="#"><img class="socials-icon" src="images/SVG/github.svg" alt="github logo"></a></li>
                 <li><a href="#"><img class="socials-icon" src="images/SVG/angellist.svg" alt="angellist logo"></a></li>
             </ul>
-                <a href="#" class="action"><img src="images/SVG/Scroll-down.svg" alt="down-arrow icon"></a>
+            <a href="#" class="action"><img src="images/SVG/Scroll-down.svg" alt="down-arrow icon"></a>
         </div>
     </section>
     <section id="Portfolio">
@@ -152,7 +157,8 @@
                 </div>
             </div>
             <div class="flex-column spacing2">
-                <p class="p2">I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, 
+                <p class="p2">I can help you build a product, feature or website. Look through some of my work and
+                    experience! If you like what you see and have a project you need coded,
                     don't hesitate to contact me.</p>
             </div>
             <div class="flex-column spacing3">
@@ -214,25 +220,69 @@
             </div>
         </div>
     </section>
+    <section id="wp">
+        <!-- Window popup -->
+        <h2 class="color1">My Recent Works</h2>
+        <div class="flex-column spacing3">
+            <hr class="hrstyling">
+        </div>
+        <div class="work-grid2">
+            <div class="container3 spacing1">
+                <div class="item2 flex-column">
+                    <button class="btn" type="button"></button>
+                    <img class="snapshoot2" src="images/SVG/Snapshoot Portfolio.svg" alt="portfolio project image 1">
+                </div>
+                <div class="item block-column">
+                    <div class="wp-div">
+                        <button class="button-interact antispacing1 display1"><a class="deco" href="#">See Live <i
+                                    class="i-back1"></i></a></button>
+                        <button class="button-interact antispacing1 display1"><a class="deco" href="#">See Source <i
+                                    class="i-back2"></i></a></button>
+                    </div>
+                    <h3 class="h3">Keeping track of hundreds of
+                        components</h3>
+                    <ul class="skills-wp">
+                        <li class="skills1">Ruby on rails</li>
+                        <li class="skills1">CSS</li>
+                        <li class="skills1">JavaScript</li>
+                        <li class="skills1">HTML</li>
+                    </ul>
+                    <p class="p3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <button class="button-interact antispacing1 display2"><a class="deco" href="#">See Live <i
+                                class="i-back1"></i></a></button>
+                    <button class="button-interact antispacing1 display2"><a class="deco" href="#">See Source <i
+                                class="i-back2"></i></a></button>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="title5" id="Contact">
         <!-- Contact form -->
         <div class="contact-grid spacing4">
             <div class="div1 flex-column">
-                <h2 class="h2-contact color1">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
+                <h2 class="h2-contact color1">I'm always interested in hearing about new projects, so if you'd like to
+                    chat please get in touch.</h2>
             </div>
             <div class="div2 flex-column">
                 <form action="https://formspree.io/f/mlevonav" method="POST">
                     <div>
                         <label for="name" class="form-label">Full name</label>
-                        <input class="input-fields" type="text" name="name" id="name" placeholder="Full Name" maxlength="30" required>
+                        <input class="input-fields" type="text" name="name" id="name" placeholder="Full Name"
+                            maxlength="30" required>
                     </div>
                     <div>
                         <label for="email" class="form-label">Email</label>
-                        <input class="input-fields" type="email" name="email" id="email" placeholder="Email Address" required>
+                        <input class="input-fields" type="email" name="email" id="email" placeholder="Email Address"
+                            required>
                     </div>
                     <div>
                         <label for="message" class="form-label">Message</label>
-                        <textarea class="input-textarea" name="message" id="message" placeholder="Enter text here" cols="20" rows="10" maxlength="500" required></textarea>
+                        <textarea class="input-textarea" name="message" id="message" placeholder="Enter text here"
+                            cols="20" rows="10" maxlength="500" required></textarea>
                     </div>
                     <div class="title3 block-column">
                         <button class="button-interact" type="submit">
@@ -246,7 +296,8 @@
             <hr class="hrstyling3">
             <ul class="socials2">
                 <li><a href="#"><img class="socials-icon" src="images/SVG/twitter.svg" alt="twitter logo"></a></li>
-                <li><a href="#"><img class="socials-icon" src="images/SVG/Linkedin icon.svg" alt="linkedin logo"></a></li>
+                <li><a href="#"><img class="socials-icon" src="images/SVG/Linkedin icon.svg" alt="linkedin logo"></a>
+                </li>
                 <li><a href="#"><img class="socials-icon" src="images/SVG/medium.svg" alt="medium logo"></a></li>
                 <li><a href="#"><img class="socials-icon" src="images/SVG/github.svg" alt="github logo"></a></li>
                 <li><a href="#"><img class="socials-icon" src="images/SVG/angellist.svg" alt="angellist logo"></a></li>
@@ -257,4 +308,5 @@
     </section>
     <script src="main.js"></script>
 </body>
+
 </html>
