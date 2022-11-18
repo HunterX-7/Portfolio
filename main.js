@@ -79,7 +79,7 @@ const grid = document.createElement('div');
 grid.classList.add('work-grid');
 workSection.appendChild(grid);
 
-for (let i = 0; i < obj.length; i + 1) {
+for (let i = 0; i < obj.length; i += 1) {
   const div = document.createElement('div');
   div.classList.add(i);
   div.innerHTML = `
@@ -104,7 +104,7 @@ for (let i = 0; i < obj.length; i + 1) {
 
 // Popup-window cards
 
-for (let i = 0; i < obj.length; i + 1) {
+for (let i = 0; i < obj.length; i += 1) {
   const xxx = `.popping${i}`;
   const open = document.querySelector(xxx);
   open.addEventListener('click', () => {
