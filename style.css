@@ -60,7 +60,21 @@ header {
   justify-content: space-around;
 }
 
+.item-pop {
+  background: #fff;
+  border-radius: 8px;
+  min-height: 222px;
+  text-align: center;
+  justify-content: space-around;
+}
+
 .item2 {
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.item2-pop {
   text-align: center;
   align-content: center;
   justify-content: center;
@@ -237,13 +251,13 @@ ul {
 }
 
 .skills-wp {
-  margin: 0;
+  margin-left: 10px;
   max-width: auto;
   height: 32px;
   line-height: 16px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: left;
   gap: 0.25em;
 }
 
@@ -583,6 +597,15 @@ a {
   margin: 10px;
 }
 
+.work-grid2 {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  row-gap: 15px;
+  margin-right: 3.5%;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   header {
     display: flex;
@@ -833,7 +856,7 @@ a {
   }
 
   .skills-wp {
-    margin: 10px;
+    margin-left: 10px;
     max-width: auto;
     height: 32px;
     line-height: 16px;
@@ -1239,7 +1262,7 @@ a {
   }
 
   .skills-wp {
-    margin: 10px;
+    margin-left: 10px;
     max-width: auto;
     height: 32px;
     line-height: 16px;
@@ -1393,4 +1416,20 @@ a {
     visibility: hidden;
     position: absolute;
   }
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  border: 10px;
+  width: 100vw;
+  height: 100vh;
+  top: 0vh;
+  position: fixed;
+  background-color: rgba(124, 124, 124, 0.5);
+}
+
+.popup {
+  display: flex;
+  justify-content: center;
 }
