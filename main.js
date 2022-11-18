@@ -10,3 +10,13 @@ function toggle() {
 document.getElementById('hamburger-icon').addEventListener('click', toggle);
 document.getElementsByClassName('close-icon')[0].addEventListener('click', toggle);
 document.getElementsByClassName('mobile-menu')[0].addEventListener('click', toggle);
+
+document.querySelector('.check').addEventListener('click', (e) => {
+  const email = document.getElementById('email').value;
+  const error = document.querySelector('.error');
+  const lower = email.toLowerCase();
+  if ((email === lower) !== true) {
+    e.preventDefault();
+    error.innerHTML = '<div class="input-fields-error">Your email address needs to be lowercase!</div>';
+  }
+});
