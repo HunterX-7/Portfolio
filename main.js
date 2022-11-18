@@ -12,6 +12,12 @@ document.getElementsByClassName('close-icon')[0].addEventListener('click', toggl
 document.getElementsByClassName('mobile-menu')[0].addEventListener('click', toggle);
 
 document.querySelector('.check').addEventListener('click', (e) => {
-    const email = document.getElementById('email').value;
-    const error = document.querySelector('.error');
+  const email = document.getElementById('email').value;
+  const error = document.querySelector('.error');
+  const form = document.getElementsByTagName('form');
+  const lower = email.toLowerCase();
+  if ((email == lower) !== true) {
+    e.preventDefault()
+    error.innerHTML = `<div class="input-fields-error">Your email address needs to be lowercase!</div>`
+  }
 });
