@@ -21,3 +21,7 @@ document.querySelector('.check').addEventListener('click', (e) => {
     error.innerHTML = `<div class="input-fields-error">Your email address needs to be lowercase!</div>`
   }
 });
+
+const name = document.getElementById('name')
+const email = document.getElementById('email')
+const message = document.getElementById('message')
