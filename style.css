@@ -232,7 +232,7 @@ ul {
   min-height: 840px;
   margin-left: 10px;
   margin-right: 5px;
-  background-color: #ffffff;
+  background-color: #fff;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
   display: grid;
@@ -373,7 +373,7 @@ h3 {
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .icon-skills {
@@ -520,6 +520,11 @@ h3 {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .mobile-list a {
   text-decoration: none;
   font-family: 'Inter', serif;
@@ -532,13 +537,8 @@ h3 {
   color: #3a4a42;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-}
-
 .i-back1 {
-  background-image : url("images/SVG/Popup/see\ live\ icon.svg");
+  background-image: url("images/SVG/Popup/see\ live\ icon.svg");
   background-size: cover;
   display: inline-block;
   height: 15px;
@@ -546,12 +546,12 @@ a {
 }
 
 .i-back2 {
-    background-image : url("images/SVG/Popup/Github\ White\ Icon.svg");
-    background-size: cover;
-    display: inline-block;
-    height: 15px;
-    width: 15px;
-  }
+  background-image: url("images/SVG/Popup/Github\ White\ Icon.svg");
+  background-size: cover;
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+}
 
 .btn {
   position: relative;
@@ -751,7 +751,7 @@ a {
     font-weight: 600;
     font-size: 32px;
     line-height: 44px;
-    color: #172B4D;
+    color: #172b4d;
   }
 
   .hicon-desktop {
@@ -848,7 +848,7 @@ a {
     min-height: 730px;
     margin-left: 20px;
     margin-right: 10px;
-    background-color: #ffffff;
+    background-color: #fff;
     border: 1px solid #d0d9d4;
     border-radius: 8px;
     display: grid;
@@ -1157,7 +1157,7 @@ a {
     font-weight: 600;
     font-size: 32px;
     line-height: 44px;
-    color: #172B4D;
+    color: #172b4d;
   }
 
   .hicon-desktop {
@@ -1250,11 +1250,11 @@ a {
     grid-template-rows: 252px 89px;
   }
 
-  .container3 { 
+  .container3 {
     min-height: 730px;
     margin-left: 20px;
     margin-right: 10px;
-    background-color: #ffffff;
+    background-color: #fff;
     border: 1px solid #d0d9d4;
     border-radius: 8px;
     display: grid;
@@ -1424,7 +1424,7 @@ a {
   border: 10px;
   width: 100vw;
   height: 100vh;
-  top: 0vh;
+  top: 0;
   position: fixed;
   background-color: rgba(124, 124, 124, 0.5);
 }
