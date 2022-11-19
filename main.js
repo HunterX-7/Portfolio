@@ -113,34 +113,32 @@ for (let i = 0; i < obj.length; i += 1) {
     const popup = document.createElement('div');
     popup.className = 'popup';
     popup.innerHTML = `
-                            <div class="work-grid2">
-                                <div class="container3 spacing1">
-                                    <div class="item2-pop flex-column">
-                                        <button class="btn close" type="button"></button>
-                                        <img class="snapshoot2" src="${obj[i].image}" alt="portfolio project image ${i + 1}">
-                                    </div>
-                                    <div class="item-pop block-column">
-                                        <div class="wp-div">
-                                            <button class="button-interact antispacing1 display1"><a class="deco" href="${obj[i].live}" target="_blank">See Live <i
-                                                        class="i-back1"></i></a></button>
-                                            <button class="button-interact antispacing1 display1"><a class="deco" href="${obj[i].source}" target="_blank">See Source <i
-                                                        class="i-back2"></i></a></button>
-                                        </div>
-                                        <h3 class="h3">${obj[i].name}</h3>
-                                        <ul class="skills-wp">
-                                            <li class="skills1">${obj[i].technologies[0]}</li>
-                                            <li class="skills1">${obj[i].technologies[1]}</li>
-                                            <li class="skills1">${obj[i].technologies[2]}</li>
-                                            <li class="skills1">${obj[i].technologies[3]}</li>
-                                        </ul>
-                                        <p class="p3">${obj[i].description}</p>
-                                        <button class="button-interact antispacing1 display2"><a class="deco" href="${obj[i].live}" target="_blank">See Live <i
-                                                    class="i-back1"></i></a></button>
-                                        <button class="button-interact antispacing1 display2"><a class="deco" href="${obj[i].source}" target="_blank">See Source <i
-                                                    class="i-back2"></i></a></button>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="container3 spacing1">
+                          <button class="btn close" type="button"></button>
+                          <img class="snapshoot2" src="${obj[i].image}" alt="portfolio project image ${i + 1}">
+                          <div class="flex-row">
+                              <h3 class="h3">${obj[i].name}</h3>
+                              <div class="wp-div">
+                                  <button class="button-interact antispacing1 display1"><a href="${obj[i].live}">See Live <i
+                                              class="i-back1"></i></a></button>
+                                  <button class="button-interact antispacing1 display1"><a href="${obj[i].source}">See Source <i
+                                              class="i-back2"></i></a></button>
+                              </div>
+                          </div>
+                          <ul class="skills-wp">
+                              <li class="skills1">${obj[i].technologies[0]}</li>
+                              <li class="skills1">${obj[i].technologies[1]}</li>
+                              <li class="skills1">${obj[i].technologies[2]}</li>
+                              <li class="skills1">${obj[i].technologies[3]}</li>
+                          </ul>
+                          <p class="p3">${obj[i].description}</p>
+                          <div>
+                              <button class="button-interact antispacing1 display2"><a href="${obj[i].live}">See Live <i
+                                  class="i-back1"></i></a></button>
+                              <button class="button-interact antispacing1 display2"><a href="${obj[i].source}">See Source <i
+                                  class="i-back2"></i></a></button>
+                          </div>
+                        </div>
                     `;
     main.appendChild(popup);
     workSection.appendChild(main);

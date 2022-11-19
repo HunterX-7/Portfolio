@@ -30,6 +30,11 @@ header {
   flex-direction: column;
 }
 
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
 .block-column {
   display: block;
   flex-direction: column;
@@ -60,21 +65,7 @@ header {
   justify-content: space-around;
 }
 
-.item-pop {
-  background: #fff;
-  border-radius: 8px;
-  min-height: 222px;
-  text-align: center;
-  justify-content: space-around;
-}
-
 .item2 {
-  text-align: center;
-  align-content: center;
-  justify-content: center;
-}
-
-.item2-pop {
   text-align: center;
   align-content: center;
   justify-content: center;
@@ -176,8 +167,7 @@ ul {
 }
 
 .p3 {
-  width: 90%;
-  padding: 0 15px 0 15px;
+  padding: 5px;
   font-family: 'Inter', serif;
   font-style: normal;
   font-weight: 400;
@@ -229,14 +219,10 @@ ul {
 }
 
 .container3 {
-  min-height: 840px;
-  margin-left: 10px;
-  margin-right: 5px;
+  padding: 0% 2.5% 0% 2.5%;
   background-color: #fff;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
-  display: grid;
-  grid-template-rows: 252px 89px;
 }
 
 .skills {
@@ -251,8 +237,6 @@ ul {
 }
 
 .skills-wp {
-  margin-left: 10px;
-  max-width: auto;
   height: 32px;
   line-height: 16px;
   display: flex;
@@ -365,9 +349,10 @@ h3 {
 }
 
 .h3 {
+  width: 60%;
   text-align: left;
+  padding: 4px;
   margin: 0;
-  padding: 10px;
   font-family: 'Inter', serif;
   font-style: normal;
   font-weight: 600;
@@ -557,24 +542,19 @@ a {
   position: relative;
   z-index: 1;
   background-color: transparent;
-  top: 5%;
+  top: 45px;
   left: 90%;
   background-image: url("images/SVG/X-Icon.svg");
   background-size: cover;
-  height: 15px;
-  width: 15px;
   border: none;
-  color: white;
   padding: 10px 10px;
-  font-size: 16px;
   cursor: pointer;
-  border-radius: 4px;
 }
 
 .snapshoot2 {
-  position: relative;
-  width: fit-content;
-  align-self: center;
+  width: 100%;
+  height: auto;
+  justify-content: center;
 }
 
 .display1 {
@@ -587,23 +567,7 @@ a {
 }
 
 .wp-div {
-  position: relative;
-  top: 25%;
-  right: 0%;
-  display: flex;
-  flex-direction: row;
-  justify-content: right;
-  gap: 10px;
-  margin: 10px;
-}
-
-.work-grid2 {
-  display: grid;
-  justify-content: center;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-  row-gap: 15px;
-  margin-right: 3.5%;
+  margin: 5px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
@@ -729,8 +693,6 @@ a {
   }
 
   .p3 {
-    width: 90%;
-    padding: 0 15px 0 15px;
     font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 400;
@@ -742,10 +704,10 @@ a {
   }
 
   .h3 {
-    width: 55%;
+    width: 60%;
     text-align: left;
+    padding: 4px;
     margin: 0;
-    padding: 10px;
     font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 600;
@@ -799,17 +761,6 @@ a {
     margin-right: 7.5%;
   }
 
-  .work-grid2 {
-    display: grid;
-    align-self: center;
-    justify-content: center;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    row-gap: 15px;
-    margin-left: 7.5%;
-    margin-right: 7.5%;
-  }
-
   .aboutme-grid {
     display: grid;
     align-self: center;
@@ -845,19 +796,15 @@ a {
   }
 
   .container3 {
-    min-height: 730px;
-    margin-left: 20px;
-    margin-right: 10px;
+    height: 90%;
+    width: 750px;
+    padding: 3%;
     background-color: #fff;
     border: 1px solid #d0d9d4;
     border-radius: 8px;
-    display: grid;
-    grid-template-rows: 252px 89px;
   }
 
   .skills-wp {
-    margin-left: 10px;
-    max-width: auto;
     height: 32px;
     line-height: 16px;
     display: flex;
@@ -987,18 +934,15 @@ a {
     position: relative;
     z-index: 1;
     background-color: transparent;
-    top: 5%;
-    left: 90%;
+    top: -10px;
+    left: 95%;
     background-image: url("images/SVG/Popup/Chunky\ X\ button.svg");
     background-size: cover;
-    height: 15px;
-    width: 15px;
     border: none;
-    color: white;
-    padding: 18px 18px;
-    font-size: 16px;
+    height: 30px;
+    width: 30px;
+    padding: 10px 10px;
     cursor: pointer;
-    border-radius: 4px;
   }
 
   .display1 {
@@ -1135,8 +1079,6 @@ a {
   }
 
   .p3 {
-    width: 90%;
-    padding: 0 15px 0 15px;
     font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 400;
@@ -1148,10 +1090,10 @@ a {
   }
 
   .h3 {
-    width: 55%;
+    width: 60%;
     text-align: left;
+    padding: 4px;
     margin: 0;
-    padding: 10px;
     font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 600;
@@ -1205,17 +1147,6 @@ a {
     margin-right: 7.5%;
   }
 
-  .work-grid2 {
-    display: grid;
-    align-self: center;
-    justify-content: center;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    row-gap: 15px;
-    margin-left: 7.5%;
-    margin-right: 7.5%;
-  }
-
   .aboutme-grid {
     display: grid;
     align-self: center;
@@ -1251,19 +1182,15 @@ a {
   }
 
   .container3 {
-    min-height: 730px;
-    margin-left: 20px;
-    margin-right: 10px;
+    height: 90%;
+    width: 750px;
+    padding: 3%;
     background-color: #fff;
     border: 1px solid #d0d9d4;
     border-radius: 8px;
-    display: grid;
-    grid-template-rows: 252px 89px;
   }
 
   .skills-wp {
-    margin-left: 10px;
-    max-width: auto;
     height: 32px;
     line-height: 16px;
     display: flex;
@@ -1393,18 +1320,15 @@ a {
     position: relative;
     z-index: 1;
     background-color: transparent;
-    top: 5%;
-    left: 90%;
+    top: -10px;
+    left: 95%;
     background-image: url("images/SVG/Popup/Chunky\ X\ button.svg");
     background-size: cover;
-    height: 15px;
-    width: 15px;
     border: none;
-    color: white;
-    padding: 18px 18px;
-    font-size: 16px;
+    height: 30px;
+    width: 30px;
+    padding: 10px 10px;
     cursor: pointer;
-    border-radius: 4px;
   }
 
   .display1 {
