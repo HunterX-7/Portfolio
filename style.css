@@ -389,6 +389,21 @@ h3 {
   width: 287px;
 }
 
+.input-fields-error {
+  border: 1px solid red;
+  background-color: rgb(255, 199, 199);
+  border-radius: 4px;
+  padding: 8px 16px 8px 16px;
+  margin: 12px 0 12px 0;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  min-height: 33px;
+  width: 287px;
+}
+
 .input-fields::placeholder {
   color: #6b778c;
 }
@@ -861,6 +876,22 @@ a {
     transition: 0.35s;
   }
 
+  .input-fields-error {
+    border: 1px solid red;
+    background-color: rgb(255, 199, 199);
+    border-radius: 4px;
+    padding: 8px 16px 8px 16px;
+    margin: 12px 0 12px 0;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    min-height: 33px;
+    min-width: 90%;
+    transition: 0.35s;
+  }
+
   .input-fields:hover {
     transform: translateX(10px);
   }
@@ -1234,6 +1265,22 @@ a {
 
   .input-fields {
     border: 1px solid #d0d9d4;
+    border-radius: 4px;
+    padding: 8px 16px 8px 16px;
+    margin: 12px 0 12px 0;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    min-height: 33px;
+    min-width: 90%;
+    transition: 0.35s;
+  }
+
+  .input-fields-error {
+    border: 1px solid red;
+    background-color: rgb(255, 199, 199);
     border-radius: 4px;
     padding: 8px 16px 8px 16px;
     margin: 12px 0 12px 0;
