@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -33,6 +38,12 @@ header {
 .flex-row {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+
+.flex-space {
+  display: flex;
+  justify-content: space-between;
 }
 
 .block-column {
@@ -219,6 +230,8 @@ ul {
 }
 
 .container3 {
+  margin-top: 15px;
+  width: 90%;
   padding: 0% 2.5% 0% 2.5%;
   background-color: #fff;
   border: 1px solid #d0d9d4;
@@ -237,6 +250,7 @@ ul {
 }
 
 .skills-wp {
+  margin: 5px 0 5px 0;
   height: 32px;
   line-height: 16px;
   display: flex;
@@ -349,9 +363,9 @@ h3 {
 }
 
 .h3 {
-  width: 60%;
+  width: 70%;
   text-align: left;
-  padding: 4px;
+  padding: 5px;
   margin: 0;
   font-family: 'Inter', serif;
   font-style: normal;
@@ -706,7 +720,7 @@ a {
   .h3 {
     width: 60%;
     text-align: left;
-    padding: 4px;
+    padding: 10px;
     margin: 0;
     font-family: 'Inter', serif;
     font-style: normal;
@@ -1092,7 +1106,7 @@ a {
   .h3 {
     width: 60%;
     text-align: left;
-    padding: 4px;
+    padding: 10px;
     margin: 0;
     font-family: 'Inter', serif;
     font-style: normal;

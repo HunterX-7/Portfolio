@@ -132,7 +132,7 @@ for (let i = 0; i < obj.length; i += 1) {
                               <li class="skills1">${obj[i].technologies[3]}</li>
                           </ul>
                           <p class="p3">${obj[i].description}</p>
-                          <div>
+                          <div class="flex-space">
                               <button class="button-interact antispacing1 display2"><a href="${obj[i].live}">See Live <i
                                   class="i-back1"></i></a></button>
                               <button class="button-interact antispacing1 display2"><a href="${obj[i].source}">See Source <i
