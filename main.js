@@ -150,6 +150,8 @@ for (let i = 0; i < obj.length; i += 1) {
   });
 }
 
+// Contact form validation
+
 document.querySelector('.check').addEventListener('click', (e) => {
   const email = document.getElementById('email').value;
   const error = document.querySelector('.error');
