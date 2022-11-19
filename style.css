@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -28,6 +33,17 @@ header {
 .flex-column {
   display: flex;
   flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flex-space {
+  display: flex;
+  justify-content: space-between;
 }
 
 .block-column {
@@ -161,6 +177,18 @@ ul {
   color: #172b4d;
 }
 
+.p3 {
+  padding: 5px;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+  align-self: center;
+  color: #344563;
+}
+
 .socials {
   width: 160px;
   height: 64px;
@@ -201,6 +229,15 @@ ul {
   align-items: center;
 }
 
+.container3 {
+  margin-top: 15px;
+  width: 90%;
+  padding: 0% 2.5% 0% 2.5%;
+  background-color: #fff;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+}
+
 .skills {
   margin: 0;
   max-width: auto;
@@ -209,6 +246,16 @@ ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 0.25em;
+}
+
+.skills-wp {
+  margin: 5px 0 5px 0;
+  height: 32px;
+  line-height: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
   gap: 0.25em;
 }
 
@@ -313,6 +360,19 @@ h3 {
   font-size: 24px;
   line-height: 32px;
   color: #344563;
+}
+
+.h3 {
+  width: 70%;
+  text-align: left;
+  padding: 5px;
+  margin: 0;
+  font-family: 'Inter', serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
 }
 
 .icon-skills {
@@ -464,7 +524,7 @@ h3 {
   height: 100vh;
   background: #fff;
   mix-blend-mode: normal;
-  z-index: 1;
+  z-index: 2;
   padding-top: 106px;
 }
 
@@ -472,6 +532,11 @@ h3 {
   display: flex;
   align-items: center;
   list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 .mobile-list a {
@@ -484,6 +549,54 @@ h3 {
   padding-left: 28px;
   padding-bottom: 20px;
   color: #3a4a42;
+}
+
+.i-back1 {
+  background-image: url("images/SVG/Popup/see\ live\ icon.svg");
+  background-size: cover;
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+}
+
+.i-back2 {
+  background-image: url("images/SVG/Popup/Github\ White\ Icon.svg");
+  background-size: cover;
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+}
+
+.btn {
+  position: relative;
+  z-index: 1;
+  background-color: transparent;
+  top: 45px;
+  left: 90%;
+  background-image: url("images/SVG/X-Icon.svg");
+  background-size: cover;
+  border: none;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+.snapshoot2 {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
+
+.display1 {
+  visibility: hidden;
+  position: absolute;
+}
+
+.display2 {
+  visibility: visible;
+}
+
+.wp-div {
+  margin: 5px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
@@ -608,6 +721,31 @@ h3 {
     color: #172b4d;
   }
 
+  .p3 {
+    padding: 0;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    align-self: center;
+    color: #344563;
+  }
+
+  .h3 {
+    width: 60%;
+    text-align: left;
+    padding: 10px;
+    margin: 0;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+  }
+
   .hicon-desktop {
     padding: 0 10px 0 10px;
     text-decoration: none;
@@ -685,6 +823,24 @@ h3 {
     border-radius: 8px;
     display: grid;
     grid-template-rows: 252px 89px;
+  }
+
+  .container3 {
+    height: 90%;
+    width: 750px;
+    padding: 3%;
+    background-color: #fff;
+    border: 1px solid #d0d9d4;
+    border-radius: 8px;
+  }
+
+  .skills-wp {
+    height: 32px;
+    line-height: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 0.25em;
   }
 
   .action {
@@ -819,6 +975,31 @@ h3 {
   .spacing4 {
     margin-bottom: -20px;
   }
+
+  .btn {
+    position: relative;
+    z-index: 1;
+    background-color: transparent;
+    top: -10px;
+    left: 95%;
+    background-image: url("images/SVG/Popup/Chunky\ X\ button.svg");
+    background-size: cover;
+    border: none;
+    height: 30px;
+    width: 30px;
+    padding: 10px 10px;
+    cursor: pointer;
+  }
+
+  .display1 {
+    visibility: visible;
+    position: relative;
+  }
+
+  .display2 {
+    visibility: hidden;
+    position: absolute;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -943,6 +1124,31 @@ h3 {
     color: #172b4d;
   }
 
+  .p3 {
+    padding: 0;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    align-self: center;
+    color: #344563;
+  }
+
+  .h3 {
+    width: 60%;
+    text-align: left;
+    padding: 10px;
+    margin: 0;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+  }
+
   .hicon-desktop {
     padding: 0 10px 0 10px;
     text-decoration: none;
@@ -1020,6 +1226,24 @@ h3 {
     border-radius: 8px;
     display: grid;
     grid-template-rows: 252px 89px;
+  }
+
+  .container3 {
+    height: 90%;
+    width: 750px;
+    padding: 3%;
+    background-color: #fff;
+    border: 1px solid #d0d9d4;
+    border-radius: 8px;
+  }
+
+  .skills-wp {
+    height: 32px;
+    line-height: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 0.25em;
   }
 
   .action {
@@ -1154,4 +1378,45 @@ h3 {
   .spacing4 {
     margin-bottom: -20px;
   }
+
+  .btn {
+    position: relative;
+    z-index: 1;
+    background-color: transparent;
+    top: -10px;
+    left: 95%;
+    background-image: url("images/SVG/Popup/Chunky\ X\ button.svg");
+    background-size: cover;
+    border: none;
+    height: 30px;
+    width: 30px;
+    padding: 10px 10px;
+    cursor: pointer;
+  }
+
+  .display1 {
+    visibility: visible;
+    position: relative;
+  }
+
+  .display2 {
+    visibility: hidden;
+    position: absolute;
+  }
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  border: 10px;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  position: fixed;
+  background-color: rgba(124, 124, 124, 0.5);
+}
+
+.popup {
+  display: flex;
+  justify-content: center;
 }
